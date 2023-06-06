@@ -1,0 +1,6 @@
+export { default as imageAsset } from './images'
+export { default as graphicAsset } from './graphics'
+export { default as videoAsset } from './video'
+export { default as musicAsset } from './music'
+export { default as soundEffectAsset } from './soundEffects'
+export { default as templateAsset } from './templates'

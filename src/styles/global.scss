@@ -1,0 +1,164 @@
+@import 'form';
+@import 'plugins';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   html {
+      font-family: var(--default-font);
+
+      @apply scroll-smooth selection:bg-blue-100 selection:text-blue-600;
+   }
+}
+
+#__next {
+   @apply flex min-h-screen flex-col;
+}
+
+/*
+* Spinner
+*/
+.spinner {
+   @apply inline-block rounded-full;
+   animation: spinnerAnimation 600ms linear infinite;
+
+   border-bottom-color: rgba(255, 255, 255, 0.27);
+}
+
+@keyframes spinnerAnimation {
+   0% {
+      transform: rotate(0deg);
+   }
+   100% {
+      transform: rotate(360deg);
+   }
+}
+
+/*
+* Sticky header
+*/
+.sticky-header {
+   @apply fixed left-0 right-0 top-0 z-20;
+
+   animation: stickyHeaderAnimation 400ms ease;
+}
+
+@keyframes stickyHeaderAnimation {
+   from {
+      @apply -mt-8;
+   }
+   to {
+      @apply mt-0;
+   }
+}
+
+/*
+* Tooltip
+*/
+[data-tooltip] {
+   @apply relative;
+
+   &:before {
+      content: attr(data-tooltip);
+      @apply pointer-events-none absolute z-5 whitespace-nowrap rounded px-2 py-1 text-xxs transition;
+   }
+
+   &:not(:hover):before {
+      @apply opacity-0;
+   }
+
+   // Theme default
+   &:not([data-tooltip-theme]) {
+      &:before {
+         @apply bg-black text-white;
+      }
+   }
+
+   // Theme light
+   &[data-tooltip-theme='light'] {
+      &:before {
+         @apply bg-white text-black;
+      }
+   }
+
+   // Top
+   &:not([data-tooltip-placement]) {
+      &:before {
+         @apply left-1/2 top-0 -translate-x-1/2 -translate-y-[115%];
+      }
+   }
+
+   // Bottom
+   &[data-tooltip-placement='bottom'] {
+      &:before {
+         @apply bottom-0 left-1/2 -translate-x-1/2 translate-y-[125%];
+      }
+   }
+}
+
+@keyframes hero-bg {
+   from {
+      top: 0;
+   }
+   to {
+      top: 100%;
+      transform: translateY(-100%);
+   }
+}
+
+/*
+* Loading bar
+*/
+.loading-bar {
+   @apply relative h-[7px] rounded-full ring-1;
+
+   &:after {
+      @apply absolute inset-y-0.5 left-1 right-[calc(100%_-_2rem)] h-[3px] rounded-full content-[''];
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-name: loading-bar-animation;
+      animation-timing-function: ease;
+   }
+}
+
+@keyframes loading-bar-animation {
+   0% {
+      @apply left-1 right-[calc(100%_-_2rem)];
+   }
+   5% {
+      @apply left-1;
+   }
+
+   50% {
+      @apply left-[calc(100%_-_2rem)] right-1;
+   }
+   55% {
+      @apply right-1;
+   }
+   100% {
+      @apply left-1 right-[calc(100%_-_2rem)];
+   }
+}
+
+/*
+* Scrollbar
+*/
+.scrollbar {
+   &::-webkit-scrollbar {
+      @apply h-1 w-1;
+   }
+
+   /*&::-webkit-scrollbar-track {
+    @apply bg-gray-100 rounded-md;
+  }*/
+
+   &::-webkit-scrollbar-thumb {
+      @apply rounded-md bg-transparent;
+   }
+
+   &:hover::-webkit-scrollbar-thumb {
+      @apply bg-gray-400;
+   }
+}

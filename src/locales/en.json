@@ -1,0 +1,709 @@
+{
+   "common": {
+      "appName": "Elementira",
+      "collections": "Collections",
+      "save": "Save",
+      "saved": "Saved",
+      "update": "Update",
+      "change": "Change",
+      "new": "New",
+      "createNew": "Create New",
+      "newCollection": "New Collection",
+      "allCollections": "All Collections",
+      "all": "All",
+      "like": "Like",
+      "liked": "Liked",
+      "likes": "Likes",
+      "signIn": "Sign in",
+      "signUp": "Sign up",
+      "signOut": "Sign out",
+      "more": "More",
+      "send": "Send",
+      "submit": "Submit",
+      "select": "Select",
+      "sort": "Sort",
+      "on": "On",
+      "off": "Off",
+      "yes": "Yes",
+      "no": "No",
+      "min": "Min",
+      "max": "Max",
+      "seconds": "Seconds",
+      "apply": "Apply",
+      "accept": "Accept",
+      "close": "Close",
+      "create": "Create",
+      "cancel": "Cancel",
+      "done": "Done",
+      "delete": "Delete",
+      "edit": "Edit",
+      "show": "Show",
+      "hide": "Hide",
+      "title": "Title",
+      "name": "Name",
+      "fullName": "Full name",
+      "emailAddress": "E-mail address",
+      "password": "Password",
+      "newPassword": "New Password",
+      "useOtherPlatforms": "Use other platforms",
+      "forgotPassword": "Forgot password?",
+      "createAccountNow": "Create account now.",
+      "signInHere": "Sign in here.",
+      "andMore": "and more...",
+      "xMore": ":count more",
+      "seeMore": "See More",
+      "free": "Free",
+      "premium": "Premium",
+      "download": "Download",
+      "other": "Other",
+      "xAssets": {
+         "singular": ":count asset",
+         "plural": ":count assets"
+      },
+      "search": "Search",
+      "searchFor": "Search for:",
+      "by": "by",
+      "searching": "Searching...",
+      "loading": "Loading...",
+      "clear": "Clear",
+      "clearFilters": "Clear Filters",
+      "goHome": "Go Home",
+      "recentSearches": "Recent Searches",
+      "trendingSearches": "Trending Searches",
+      "suggestedSearches": "Suggested Searches",
+      "popularTopics": "Popular Topics",
+      "exploreCategories": "Explore Categories",
+      "areYouSure": "Are you sure?"
+   },
+   "filters": {
+      "heading": "Filters",
+      "providerFilter": {
+         "heading": "Filter Sites",
+         "selected": {
+            "heading": "Selected Sites",
+            "description": "Only results from these sites are shown."
+         },
+         "matched": {
+            "heading": "Matching Sites",
+            "description": "Sites that match active filters."
+         },
+         "unmatched": {
+            "heading": "Alternative Sites",
+            "description": "Can be selected, but active filters will be removed."
+         }
+      },
+      "orientation": {
+         "label": "Orientation",
+         "horizontal": "Horizontal",
+         "vertical": "Vertical",
+         "square": "Square",
+         "panoramic": "Panoramic"
+      },
+      "size": {
+         "label": "Size",
+         "small": "Small",
+         "medium": "Medium",
+         "large": "Large",
+         "xLarge": "xLarge",
+         "xxLarge": "xxLarge",
+         "xxxLarge": "xxxLarge"
+      },
+      "people": {
+         "label": "People",
+         "true": "With People",
+         "false": "No People"
+      },
+      "numberOfPeople": {
+         "label": "Number of People"
+      },
+      "age": {
+         "label": "Age",
+         "infants": "Infants",
+         "children": "Children",
+         "teenagers": "Teenagers",
+         "older": "Older"
+      },
+      "gender": {
+         "label": "Gender",
+         "male": "Male",
+         "female": "Female",
+         "nonBinary": "Non-binary"
+      },
+      "ethnicity": {
+         "label": "Ethnicity",
+         "african": "African",
+         "africanAmerican": "African American",
+         "black": "Black",
+         "brazilian": "Brazilian",
+         "chinese": "Chinese",
+         "caucasian": "Caucasian",
+         "eastAsian": "East Asian",
+         "hispanic": "Hispanic",
+         "japanese": "Japanese",
+         "indian": "Indian",
+         "middleEastern": "Middle Eastern",
+         "nativeAmerican": "Native American",
+         "pacificIslander": "Pacific Islander",
+         "southAsian": "South Asian",
+         "southeastAsian": "Southeast Asian",
+         "white": "White",
+         "multiracial": "Multiracial"
+      },
+      "cameraAngle": {
+         "label": "Camera Angle",
+         "headShot": "Head Shot",
+         "waistUp": "Waist Up",
+         "threeQuarter": "Three Quarter",
+         "fullLength": "Full Length",
+         "lookingAtCamera": "Looking at Camera",
+         "candid": "Candid",
+         "closeUp": "Close Up"
+      },
+      "color": {
+         "label": "Color",
+         "white": "White",
+         "black": "Black",
+         "brown": "Brown",
+         "yellow": "Yellow",
+         "orange": "Orange",
+         "red": "Red",
+         "purple": "Purple",
+         "magenta": "Magenta",
+         "green": "Green",
+         "teal": "Teal",
+         "blue": "Blue"
+      },
+      "licence": {
+         "label": "Licence"
+      },
+      "safeSearch": {
+         "label": "Safe Search"
+      },
+      "undiscovered": {
+         "label": "Undiscovered"
+      },
+      "style": {
+         "label": "Style",
+         "selectiveFocus": "Selective Focus",
+         "pattern": "Pattern",
+         "vibrance": "Vibrance",
+         "grayish": "Grayish",
+         "isolated": "Isolated",
+         "transparent": "Transparent"
+      },
+      "mood": {
+         "label": "Mood",
+         "warm": "Warm",
+         "cool": "Cool",
+         "vivid": "Vivid",
+         "natural": "Natural",
+         "bold": "Bold",
+         "dramatic": "Dramatic",
+         "blackWhite": "Black White",
+         "angryAggressive": "Angry / Aggressive",
+         "chillMellow": "Chill / Mellow",
+         "darkSuspenseful": "Dark / Suspenseful",
+         "dramaticEmotional": "Dramatic / Emotional",
+         "epicPowerful": "Epic / Powerful",
+         "funnyQuirky": "Funny / Quirky",
+         "happyCheerful": "Happy / Cheerful",
+         "inspiringUplifting": "Inspiring / Uplifting",
+         "relaxingMeditation": "Relaxing / Meditation",
+         "romanticSentimental": "Romantic / Sentimental",
+         "sadSomber": "Sad / Somber",
+         "upbeatEnergetic": "Upbeat / Energetic",
+         "sexy": "Sexy",
+         "tender": "Tender",
+         "sophisticated": "Sophisticated",
+         "bright": "Bright"
+      },
+      "usage": {
+         "label": "Usage",
+         "editorial": "Editorial",
+         "nonEditorial": "Non-editorial"
+      },
+      "authentic": {
+         "label": "Authentic"
+      },
+      "minWidth": {
+         "label": "Min Width"
+      },
+      "minHeight": {
+         "label": "Min Height"
+      },
+      "exclude": {
+         "label": "Exclude",
+         "placeholder": "Type a phrase to exclude"
+      },
+      "resolution": {
+         "label": "Resolution",
+         "4K": "4K",
+         "HD": "HD",
+         "SD": "SD"
+      },
+      "aspectRatio": {
+         "label": "Aspect Ratio",
+         "nonStandard": "Non-standard"
+      },
+      "fps": {
+         "label": "FPS"
+      },
+      "duration": {
+         "label": "Duration",
+         "minDuration": "Min Duration",
+         "maxDuration": "Max Duration"
+      },
+      "type": {
+         "label": "Type",
+         "vectors": "Vectors",
+         "illustrations": "Illustrations"
+      },
+      "fileType": {
+         "label": "File Type",
+         "svg": "SVG",
+         "psd": "PSD",
+         "ai": "Illustrator",
+         "figma": "Figma",
+         "sketch": "Sketch"
+      },
+      "category": {
+         "label": "Category",
+         "animals": "Animals",
+         "ambiance": "Ambiance",
+         "game": "Game",
+         "transitions": "Transitions",
+         "human": "Human",
+         "urban": "Urban",
+         "nature": "Nature",
+         "futuristic": "Futuristic",
+         "communication": "Communication",
+         "crowd": "Crowd",
+         "magic": "Magic",
+         "interface": "Interface",
+         "cartoon": "Cartoon",
+         "industrial": "Industrial",
+         "misc": "Miscellaneous",
+         "alarm": "Alarm",
+         "laser": "Laser",
+         "mechanic": "Mechanic",
+         "vehicle": "Vehicle",
+         "voice": "Voice",
+         "water": "Water",
+         "banner": "Banner",
+         "branding": "Branding",
+         "businessCard": "Business Card",
+         "card": "Card",
+         "etsy": "Etsy",
+         "instagram": "Instagram",
+         "facebook": "Facebook",
+         "youtube": "YouTube",
+         "pinterest": "Pinterest",
+         "flyer": "Flyer",
+         "entertainment": "Entertainment",
+         "logo": "Logo",
+         "advertisement": "Advertisement",
+         "postcard": "Postcard",
+         "poster": "Poster",
+         "presentation": "Presentation"
+      },
+      "genre": {
+         "label": "Genre",
+         "blues": "Blues",
+         "chillOut": "Chill Out",
+         "choirGroup": "Choir Group",
+         "classical": "Classical",
+         "corporate": "Corporate",
+         "country": "Country",
+         "dance": "Dance",
+         "electronic": "Electronic",
+         "house": "House",
+         "african": "African",
+         "caribbeanIsland": "Caribbean",
+         "celtic": "Celtic",
+         "childrenKids": "Children & Kids",
+         "cinematic": "Cinematic",
+         "dubstep": "Dubstep",
+         "eastern": "Eastern",
+         "european": "European",
+         "folk": "Folk",
+         "funk": "Funk",
+         "hipHopRap": "HipHop & Rap",
+         "indian": "Indian",
+         "middleEast": "Middle East",
+         "jazz": "Jazz",
+         "latin": "Latin",
+         "lounge": "Lounge",
+         "metal": "Metal",
+         "pop": "Pop",
+         "rock": "Rock",
+         "techno": "Techno",
+         "rb": "R&B",
+         "trap": "Trap",
+         "tropical": "Tropical"
+      },
+      "instrument": {
+         "label": "Instrument",
+         "accordion": "Accordion",
+         "acousticGuitar": "Acoustic Guitar",
+         "banjo": "Banjo",
+         "bass": "Bass",
+         "bells": "Bells",
+         "brass": "Brass",
+         "cello": "Cello",
+         "drums": "Drums",
+         "electricGuitar": "Electric Guitar",
+         "electricDrums": "Electric Drums",
+         "synthesizer": "Synthesizer",
+         "flute": "Flute",
+         "harmonica": "Harmonica",
+         "harp": "Harp",
+         "horns": "Horns",
+         "orchestra": "Orchestra",
+         "percussion": "Percussion",
+         "piano": "Piano",
+         "saxophone": "Saxophone",
+         "handClaps": "Hand Claps",
+         "strings": "Strings",
+         "synth": "Synth",
+         "trumpet": "Trumpet",
+         "violin": "Violin",
+         "whistling": "Whistling",
+         "woodwinds": "Woodwinds"
+      },
+      "vocal": {
+         "label": "Vocal",
+         "background": "Background",
+         "male": "Male",
+         "female": "Female",
+         "noVocal": "No-vocal"
+      },
+      "loopable": {
+         "label": "Loopable",
+         "true": "Non-loopable",
+         "false": "Loopable"
+      },
+      "app": {
+         "label": "Application",
+         "photoshop": "Photoshop",
+         "illustrator": "Illustrator",
+         "inDesign": "InDesign",
+         "premierePro": "Premiere Pro",
+         "premiereRush": "Premiere Rush",
+         "msWord": "MS Word",
+         "msExcel": "MS Excel",
+         "msPowerPoint": "MS Power Point",
+         "keynote": "Keynote",
+         "googleSheets": "Google Sheets",
+         "googleSlides": "Google Slides"
+      },
+      "tempo": {
+         "label": "Tempo",
+         "bpm": "BPM",
+         "verySlow": {
+            "label": "Very Slow",
+            "bpm": "0-99bpm"
+         },
+         "slow": {
+            "label": "Slow",
+            "bpm": "99-149bpm"
+         },
+         "medium": {
+            "label": "Medium",
+            "bpm": "150-199bpm"
+         },
+         "upbeat": {
+            "label": "Upbeat",
+            "bpm": "200-249bpm"
+         },
+         "fast": {
+            "label": "Fast",
+            "bpm": "250-299bpm"
+         },
+         "veryFast": {
+            "label": "Very Fast",
+            "bpm": "300+bpm"
+         }
+      }
+   },
+   "sort": {
+      "heading": "Sort by",
+      "newest": "Newest",
+      "popular": "Popular",
+      "relevant": "Relevant",
+      "random": "Random",
+      "duration": "Duration",
+      "tempo": "Tempo",
+      "editorsChoice": "Editor's Choice"
+   },
+   "elements": {
+      "images": {
+         "title": "Images",
+         "heroHeading": "Images & Photos",
+         "tickerHeading": "stock image & photo",
+         "heroDescription": "Search all the leading stock image & photo sites at once.",
+         "descriptionAlt": "Access wonderful free or premium photos and images with no hassle.",
+         "searchPlaceholder": "Search over 400m stock images",
+         "searchResultMessage": "We found :count :keyword images",
+         "searchResultMessageSimple": "We found :count images"
+      },
+      "video": {
+         "title": "Video",
+         "heroHeading": "Video & Footage",
+         "tickerHeading": "stock video & footage",
+         "heroDescription": "Search most visited stock video & footage sites at once.",
+         "descriptionAlt": "Discover striking stock footage and 4K or HD videos in world's leading platforms.",
+         "searchPlaceholder": "Search over 50m stock videos",
+         "searchResultMessage": "We found :count :keyword videos",
+         "searchResultMessageSimple": "We found :count videos"
+      },
+      "music": {
+         "title": "Music",
+         "heroHeading": "Royalty Free Music",
+         "tickerHeading": "royalty free music",
+         "heroDescription": "Search leading royalty free & non-copyrighted stock music sites at once.",
+         "descriptionAlt": "Search over 64 million stock music, create collections, share with your team or friends.",
+         "searchPlaceholder": "Search royalty free stock music",
+         "searchResultMessage": "We found :count :keyword music",
+         "searchResultMessageSimple": "We found :count music"
+      },
+      "soundEffects": {
+         "title": "Sound Effects",
+         "heroHeading": "Sound Effect & Audio",
+         "tickerHeading": "sound effect & audio",
+         "heroDescription": "Search most popular sound effects & audio sites at once.",
+         "descriptionAlt": "Enrich your creative project with a perfect sound effect or audio.",
+         "searchPlaceholder": "Search sound effects and audio",
+         "searchResultMessage": "We found :count :keyword sound effects",
+         "searchResultMessageSimple": "We found :count sound effects"
+      },
+      "graphics": {
+         "title": "Graphics",
+         "heroHeading": "Graphics",
+         "tickerHeading": "graphic & illustration",
+         "heroDescription": "Search most creative vector & illustration sites at once.",
+         "descriptionAlt": "Discover our amazing vectors, graphics, illustrations, 3D drawings library.",
+         "searchPlaceholder": "Search over 900m vector and graphics",
+         "searchResultMessage": "We found :count :keyword graphics",
+         "searchResultMessageSimple": "We found :count graphics"
+      },
+      "templates": {
+         "title": "Templates",
+         "heroHeading": "Templates",
+         "tickerHeading": "template",
+         "heroDescription": "Search top-notch template provider sites at once.",
+         "descriptionAlt": "Go faster with your project with our extensive library of templates.",
+         "searchPlaceholder": "Search thousands of templates",
+         "searchResultMessage": "We found :count :keyword templates",
+         "searchResultMessageSimple": "We found :count templates"
+      }
+   },
+   "pages": {
+      "home": {
+         "metaTitle": "Free Stock Image, Photo, Vector, Video & Music Search Engine",
+         "metaDescription": "",
+         "heroHeading": "Search all leading <br /> :ticker sites in <span class=\":highlight\">one platform.</span>"
+      },
+      "images": {
+         "metaTitle": "Stock Image & Photo Search Engine",
+         "metaDescription": ""
+      },
+      "video": {
+         "metaTitle": "Stock Video Search Engine",
+         "metaDescription": ""
+      },
+      "music": {
+         "metaTitle": "Stock Music Search Engine",
+         "metaDescription": ""
+      },
+      "soundEffects": {
+         "metaTitle": "Stock Sound Effect & Audio Search Engine",
+         "metaDescription": ""
+      },
+      "graphics": {
+         "metaTitle": "Stock Graphic, Vector & Illustration Search Engine",
+         "metaDescription": ""
+      },
+      "templates": {
+         "metaTitle": "Stock Template Search Engine",
+         "metaDescription": ""
+      },
+      "search": {
+         "metaTitle": {
+            "images": ":count Free & Premium:keyword Stock Photos and Images",
+            "video": ":count Free & Premium:keyword Stock Video and Footage",
+            "music": ":count:keyword Royalty Free and Stock Music",
+            "soundEffects": ":count Free & Premium:keyword Stock Sound Effects & Audio",
+            "graphics": ":count Free & Premium:keyword Stock Vectors, Illustrations and Graphics",
+            "templates": ":count Free & Premium:keyword Templates"
+         },
+         "metaDescription": {
+            "images": "",
+            "video": "",
+            "music": "",
+            "soundEffects": "",
+            "graphics": "",
+            "templates": ""
+         },
+         "noResult": "We couldn't find any results.",
+         "suggestion": "Please try another keyword or remove some filters."
+      },
+      "likes": {
+         "metaTitle": "Likes",
+         "noResult": "You haven't liked anything yet.",
+         "description": "Find high-quality assets from millions of content."
+      },
+      "collections": {
+         "list": {
+            "metaTitle": "Collections",
+            "noResult": "You have no collections yet."
+         },
+         "detail": {
+            "metaTitle": ":name Collection",
+            "noResult": "Nothing in this collection.",
+            "description": "Find high-quality assets from millions of content."
+         },
+         "description": "Save your favorite assets in the collections.",
+         "createNew": "Create New Collection",
+         "createDescription": "Easily create a new collection below.",
+         "yourCollections": "Your Collections",
+         "saveDescription": "Select a collection below to save the asset."
+      },
+      "profile": {
+         "title": "Profile",
+         "metaTitle": "Profile: :name",
+         "editProfile": "Edit Profile",
+         "changePassword": "Change Password"
+      },
+      "signIn": {
+         "metaTitle": "Sign In",
+         "introduction": "Access to your account to use all the features.",
+         "signUpInstruction": "Don't you have an account yet?",
+         "withSocial": "Sign in with :provider"
+      },
+      "signUp": {
+         "metaTitle": "Sign Up",
+         "introduction": "Create an account to access all the features.",
+         "signInInstruction": "Do you already have an account?",
+         "agreements": "By signing up you agree to the :termsOfUse and :privacyPolicy",
+         "withSocial": "Sign up with :provider"
+      },
+      "resetPassword": {
+         "metaTitle": "Reset Password",
+         "description": "Simply enter your email address to get your new password.",
+         "emailTemplate": {
+            "subject": "Your new password.",
+            "content": "Hi :name, <br/><br/> Here is your new password. <br/><br/> <strong>:password</strong> <br/><br/> Don't forget to change your password after sign in. <br/><br/> <a href=\":link\">Sign in here.</a> <br/><br/> <em>Elementira</em>"
+         }
+      },
+      "howItWorks": {
+         "metaTitle": "How It Works",
+         "metaDescription": ""
+      },
+      "about": {
+         "metaTitle": "About",
+         "metaDescription": ""
+      },
+      "contact": {
+         "metaTitle": "Contact",
+         "metaDescription": ""
+      },
+      "licence": {
+         "metaTitle": "Licence",
+         "metaDescription": ""
+      },
+      "privacyPolicy": {
+         "metaTitle": "Privacy Policy",
+         "metaDescription": ""
+      },
+      "termsOfUse": {
+         "metaTitle": "Terms of Use",
+         "metaDescription": ""
+      },
+      "cookies": {
+         "metaTitle": "Cookies",
+         "metaDescription": "",
+         "popupTitle": "Cookie Consent",
+         "seeCookiePolicy": "See cookie policy."
+      },
+      "404": {
+         "metaTitle": "Page not found",
+         "heading": "Something's wrong here.",
+         "description": "It looks like you've reached a page that doesn't exist."
+      },
+      "500": {
+         "metaTitle": "Something went wrong!",
+         "heading": "Unexpected error.",
+         "description": "This page is not working properly. Please try again later."
+      }
+   },
+   "categories": {
+      "flowers": "Flowers",
+      "space": "Space",
+      "summer": "Summer",
+      "winter": "Winter",
+      "spring": "Spring",
+      "autumn": "Autumn",
+      "abstract": "Abstract",
+      "animals": "Animals",
+      "babies": "Babies",
+      "men": "Men",
+      "women": "Women",
+      "drinks": "Drinks",
+      "beauty": "Beauty",
+      "business": "Business",
+      "education": "Education",
+      "family": "Family",
+      "fashion": "Fashion",
+      "fitness": "Fitness",
+      "food": "Food",
+      "healthcare": "Healthcare",
+      "horizontal": "Horizontal",
+      "people": "People",
+      "technology": "Technology",
+      "texture": "Texture",
+      "travel": "Travel",
+      "sports": "Sports",
+      "fruits": "Fruits",
+      "party": "Party",
+      "camping": "Camping",
+      "lifestyle": "Lifestyle",
+      "vintage": "Vintage",
+      "art": "Art",
+      "3d": "3D",
+      "advertising": "Advertising",
+      "city": "City",
+      "waves": "Waves",
+      "wedding": "Wedding"
+   },
+   "success": {
+      "signedIn": "You have signed in.",
+      "signedUp": "Welcome! You have signed up successfully.",
+      "signedOut": "You have signed out.",
+      "collectionCreated": "Your collection has been created!",
+      "profileUpdated": "Your profile has been updated!",
+      "newPasswordSent": "Your new password has been sent to your email address!"
+   },
+   "messages": {
+      "cookieConsent": "We use cookies to enhance your experience on our website. To use our platform, you must consent to the use of all cookies."
+   },
+   "errors": {
+      "validation": {
+         "required": "Please fill in this field.",
+         "alreadyInUse": "This is already in use.",
+         "fullName": "Please enter a valid full name.",
+         "email": "Please enter a valid email address.",
+         "emailRegistered": "This email address is already registered.",
+         "password": "Please define a strong password.",
+         "passwordRequired": "Please enter your password."
+      },
+      "methodNotAllowed": "Method not allowed.",
+      "unauthorized": "Please sign in first.",
+      "generic": "Something went wrong. Please refresh the page and try again.",
+      "invalidCredentials": "Invalid email address or password.",
+      "socialAuth": {
+         "missingDetails": "We couldn't access your name and email address.",
+         "alreadyExists": "You already have an account associated with this email address. Please try to sign in with your password.",
+         "alreadySignedInWithSocial": "You have already signed in with :provider before. Please use it or reset your password."
+      }
+   }
+}

@@ -1,0 +1,8 @@
+# Folders
+.next
+public
+node_modules
+
+# files
+*.html
+*.md
